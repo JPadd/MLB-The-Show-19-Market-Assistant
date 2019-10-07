@@ -14,10 +14,10 @@ This project leverages the official MLB the Show 19 API to generate a summary of
 - ultimate_flip_helper.py
   - Run this file to generate a spreadsheet for market listings.
   - Output spreadsheet includes net profit, profit margins, buy orders posted, buy orders fulfilled, sell orders posted, sell orders fulfilled, total activities, times flipped, and total profits.
-  - Buy orders posted: tallies when the best buy price goes up 
-  - Buy orders fulfilled: tallies when the best buy price goes down
-  - Sell orders posted: tallies when the best sell price goes down
-  - Sell orders fulfilled: tallies when the best sell price goes up
-  - Total actvities: sum of buy/sell orders fulfilled and posted
-  - Times flipped: Minimum of buy order fulfilled and sell orders fulfilled
-  - Total Profit: .5 * (buy orders fulfilled + sell orders fulfilled) * net profit.
+    - Buy orders posted: tallies when the best buy price goes up 
+    - Buy orders fulfilled: tallies when the best buy price goes down
+    - Sell orders posted: tallies when the best sell price goes down
+    - Sell orders fulfilled: tallies when the best sell price goes up
+    - Total actvities: sum of buy/sell orders fulfilled and posted
+    - Times flipped: Minimum of buy order fulfilled and sell orders fulfilled
+    - Total Profit: .5 * (buy orders fulfilled + sell orders fulfilled) * net profit.
